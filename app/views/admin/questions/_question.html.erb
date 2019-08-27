@@ -1,0 +1,7 @@
+<tr>
+  <td><%= link_to question.body, admin_question_path(question) %></td>
+  <td style="text-align: center"><%= question.level %></td>
+  <td style="text-align: center"><%= question.answers.count %></td> 
+  <td class="text-center"><%= link_to 'Редактировать', edit_admin_question_path(question) %></td>
+  <td class="text-center"><%= link_to 'Удалить', admin_question_path(question), method: :delete %></td>
+</tr>

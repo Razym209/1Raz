@@ -1,0 +1,200 @@
+ru:
+  question_of_the_test: "Вопрос теста \"%{test_title}\""
+
+  layouts:
+    admin:
+      title: "Админ панель"
+    nav:
+      registration: "Регистрация"
+      administration: "Администрирование"
+      tests: "Тесты"
+      logout: "Выход"
+      contact_us: "Контакты"
+      sign_in: "Войти"
+      welcome_guru: "Добро пожаловать,"
+
+  shared:
+    errors:
+      errors: "Ошибки"
+
+  contact:
+    index:
+      header: 'Контакты'
+      message: 'Напишите нам'
+      send: 'Отправить'
+      email: 'Эл.почта для связи'
+    send_message:
+      send_success: 'Сообщение успешно отправлено'
+      send_failure: 'К сожалению возникла ошибка при отправке сообщения. Пожалуйста, попробуйте отправить позже.'
+      empty_email: 'Не указан'
+      empty_message: 'Сообщение не может быть пустым'
+      invalid_email: 'Правильно укажите эл.почту или оставьте пустым'
+
+  tests:
+    index:
+      header: "Доступные Тесты"
+      category: "Категория"
+      title: "Название"
+      level: "Уровень"
+      quantity_of_questions: "Кол-во вопросов"
+      actions: "Действия"
+    sort_panel:
+      sort: "Сортировать"
+      sort_by_title: "Название"
+      sort_by_level: "Сложность"
+      sort_by_popularity: "Популярность"
+    test:
+      start_test: "Начать тест"
+      test_level: 'Сложность: %{test_level}'
+      question_count: 'Вопросов: %{question_count}'
+
+  admin:
+    gists:
+      index:
+        gists: "Gist'ы"
+        user: "Пользователь"
+        question: "Вопрос"
+        gist_url: "Ссылка на gist"
+    questions:
+      show:
+        question: 'Вопрос'
+        answer: 'Ответ'
+        is_correct: 'Правильный?'
+        sort: 'Сортировка'
+        new_answer: 'Добавить ответ'
+        back: 'Назад'
+        max_answers: 'Макс. кол-во ответов'
+        actions: 'Действия'
+        test: 'Тест'
+        level: 'Сложность'
+      form:
+        question: 'Вопрос'
+        level: 'Сложность'
+        back: 'Назад'
+      edit:
+        edit_question: 'Редактирование вопроса теста'
+      new:
+        new_question: 'Новый вопрос'
+    answers:
+      show:
+        answer: 'Ответ'
+        question: 'Вопрос'
+        level: 'Сложность'
+        sort: 'Сортировка'
+        edit: 'Редактировать'
+        back: 'Назад'
+      form:
+        answer: 'Ответ'
+        is_correct: 'Правильный?'
+        sort: 'Сортировка'
+        back: 'Назад'
+      edit:
+        edit_answer: 'Редактировать ответ на вопрос'
+      new:
+        new_answer: 'Новый ответ на вопрос'
+    tests:
+      index:
+        header: "Доступные Тесты"
+        category: "Категория"
+        title: "Название"
+        level: "Уровень"
+        quantity_of_questions: "Кол-во вопросов"
+        actions: "Действия"
+        new_test: "Новый тест"
+      new:
+        new_test: "Новый тест"
+      edit:
+        edit_test: "Редактировать тест"
+      show:
+        title: "Название"
+        category: "Категория"
+        level: "Уровень"
+        authors: "Авторы"
+        questions: "Вопросы"
+        question: "Вопрос"
+        quantity_of_answers: "Кол-во ответов"
+        new_question: "Новый вопрос"
+        test: "Тест"
+      link_to_tests:
+        all_tests: "Все тесты"
+      test:
+        edit: "Редакт."
+        edit_inline: "Редакт. быстр."
+        delete: "Удалить"
+      form:
+        select:
+          prompt: "Выберите категорию"
+        back: "Назад"
+      form_inline:
+        submit: "ОК"
+    home:
+      index:
+        header: "Администрирование"
+      categories:
+        tests: "Тесты"
+        users: "Пользователи"
+        gists: "Gist'ы"
+        edit: "Редактировать"
+        show: "Показать"
+        tests_count:
+          one: "Всего %{count} тест"
+          few: "Всего %{count} теста"
+          many: "Всего %{count} тестов"
+          other: "Всего %{count} тестов"
+        users_count:
+          one: "Всего %{count} пользователь"
+          few: "Всего %{count} пользователя"
+          many: "Всего %{count} пользователей"
+          other: "Всего %{count} пользователей"
+        gists_count:
+          one: "Всего %{count} gist"
+          few: "Всего %{count} gist'а"
+          many: "Всего %{count} gist'ов"
+          other: "Всего %{count} gist'ов"
+
+  test_passages:
+    form:
+      next: "Далее"
+    result:
+      header: "Результат теста \"%{test_title}\""
+      right_answers: "Правильных ответов"
+      result: "Результат"
+      all_tests: "Все тесты"
+    show:
+      header: "Прохождение теста"
+      dificult_answer: "У меня сложности с этим вопросом"
+    gist:
+      success: "Вопрос успешно <a target=\"_blank\" href=\"%{url}\">отправлен</a>"
+      failure: "Ошибка при отправке вопроса"
+
+  main:
+    index:
+      header: "Мир гуруметрии"
+      tests: "Тесты"
+      statistics: "Статистика"
+      self_assessment: "Оценка себя"
+      passage_tests: "Проходи различные тесты!"
+      compare_your_results: "Сравнивай свои результаты с остальными!"
+      how_guru_are_you: "Проверяй, насколько ты гуру!"
+
+  helpers:
+    submit:
+      user:
+        create: "Войти"
+      test:
+        create: "Создать Тест"
+        update: "Обновить Тест"
+    label:
+      user:
+        first_name: "Имя"
+        last_name: "Фамилия"
+        email: "Эл.почта"
+        password: "Пароль"
+        password_confirmation: "Повторите пароль"
+        remember_me: "Запомнить меня"
+      test:
+        title: "Название"
+        level: "Уровень"
+        category_id: "Категория"
+    select:
+      prompt: "Выберите..."
